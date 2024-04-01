@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        nav{
+            display: flex;
+            background-color: black;
+            height: 80px;
+        }
+        #part2{
+            display: flex;
+            position: relative;
+            left: 20%;
+          
+           
+            color: white;
+            list-style: none;
+            width: 50%;
+            justify-content: space-around;
+            align-items: center;
+            font-size: 20px;
+            
+           
+        }
+      
+        a{
+            color:rgb(250, 248, 248);
+            text-decoration: none;
+        }
+        #part1{
+            position: relative;
+            left: 5%;
+            display: flex;
+            align-items: center;
+            font-size: 40px;
+            font-weight: bolder;
+            color: white;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            transition: all 1s linear;
+        }
+        #part1:hover{
+            transform: rotate(360deg);
+           color: aqua;
+        }
+        #part3{
+            background-color: black;
+            transition: all 0.5s linear;
+        }
+        #part3:hover{
+            background-color: yellow;
+            color: black;
+            border-radius: 5px;
+           
+        }
+    </style>
+</head>
+<body>
+    
+    <nav>
+        <div id="part1">
+            PHARMA<p style="color: greenyellow;">+</p>
+        </div>
+        <div id="part2">
+            <li><a href="" id="part3">Home</a></li>
+            <li><a href="" id="part4">Products</a></li>
+            <li><a href="">About Us</a></li>
+            <li><a href="">Login</a></li>
+            <li><a href="">Signup</a></li>
+        </div>
+        <div>
+            
+        </div>
+    </nav>
+</body>
+</html>
